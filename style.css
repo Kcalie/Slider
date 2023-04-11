@@ -1,13 +1,19 @@
 /*Carousel*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #0024ff;
+}
 .carousel{
     display: grid;
     place-items: center;
 }
 .slider{
+    background: #fff;
     height: 250px;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -35,7 +41,7 @@
     width: 250px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     perspective: 100px;
 }
 img{
